@@ -6,9 +6,9 @@ var Size = document.getElementById("Size").addEventListener('change',function(){
 
 var Font = document.getElementById("Font").addEventListener('select',function(){
     switch(this.value) {
-        case "1" : Text.style.fontFamily = "serif"; break ;
-        case "2" : Text.style.fontFamily = "cursive"; break ;
-        case "3": Text.style.fontFamily = "system-ui"; break ;
+        case "1" : Text.style.fontFamily = "Time New Roman"; break ;
+        case "2" : Text.style.fontFamily = "Agency FB"; break ;
+        case "3": Text.style.fontFamily = "Courier"; break ;
         default : break ; 
     } }) ;
 
